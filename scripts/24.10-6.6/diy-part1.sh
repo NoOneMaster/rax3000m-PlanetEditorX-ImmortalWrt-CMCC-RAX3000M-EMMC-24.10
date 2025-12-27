@@ -8,5 +8,6 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # 文件名: diy-part1.sh
 # 描述: OpenWrt DIY 脚本第一部分 (更新 feeds 之前)
-
+# 添加luci-app-socat
+echo 'src-git socat https://github.com/chenmozhijin/luci-app-socat' >>feeds.conf.default
 
